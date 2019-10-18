@@ -1,6 +1,6 @@
 # Climate_Master
 
-This is a Weather app that Fetches the The weather report of a pirticular area based on area name or the zip code you give. This application wishes you morning,afternon,evening,night as the time moves on.The following fields you get for a pirticular area weather report
+This is a Weather app that Fetches the The weather report of a particular area based on area name or the zip code you give. This application wishes you morning,afternoon,evening,night as the time moves on.The following fields you get for a particular area weather report
 
 1.  Area Name
 2.  Latitude
@@ -15,9 +15,9 @@ This is a Weather app that Fetches the The weather report of a pirticular area b
 
 # Terms and Conditions 
 
-1) This is a app built on the Free api Key so as No hits more than 60 overall(Global Usage Limit) from this app 
-2) So If you want to use this app for your presonal usage we strongly recomend you to get a api key form the [open weather]( https://home.openweathermap.org/users/sign_up) sign up there you will get a free key if you want you can even upgrade your api key there and replace your api key with my api key
-3) We don't collect your personal data or no information collection code is written in the backend 
+1) This is a app built on the Free API Key so as No hits more than 60 overall(Global Usage Limit) from this app 
+2) So If you want to use this app for your personal usage we strongly recommend you to get a API key form the [open weather]( https://home.openweathermap.org/users/sign_up) sign up there you will get a free key if you want you can even upgrade your api key there and replace your API key with my API key
+3) We don't collect your personal data or no information collection code is written in the back end 
 4) The app is not allowed to publish in the windows store or any other stores directly or by any other means. One can use our app for free of cost from here
 5) Read Usage to know the usage process
 
@@ -28,6 +28,7 @@ This is a Weather app that Fetches the The weather report of a pirticular area b
    iii) tkintler   <br/>
    iv)  time       <br/>
    v)   messagebox <br/> 
+   vi)  
 2) Make sure that both cloud.ico and the mountains.png are in both a single folder
 3) **Boom** The app is ready to use 
  
