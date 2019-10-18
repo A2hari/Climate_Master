@@ -27,8 +27,7 @@ This is a Weather app that Fetches the The weather report of a particular area b
    ii)  requests   <br/>
    iii) tkintler   <br/>
    iv)  time       <br/>
-   v)   messagebox <br/> 
-   vi)  
+   v)   messagebox <br/>
 2) Make sure that both cloud.ico and the mountains.png are in both a single folder
 3) **Boom** The app is ready to use 
  
