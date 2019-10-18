@@ -15,6 +15,7 @@ root.iconbitmap(r'cloud.ico')
 
 def format_response(weather):
     try:
+        area = weather['name']
         lon = weather['coord']['lon']
         lat = weather['coord']['lat']
         weather_desc = weather['weather'][0]['description']
@@ -24,7 +25,7 @@ def format_response(weather):
         sunrise = time.ctime(weather['sys']['sunrise'])
         sunset = time.ctime(weather['sys']['sunset'])
         windir = weather['wind']['deg']
-        final_string = 'Longitude= %s°\nLatitude%s° \nClimate=%s\nHumidity=%s%%\nTemperature(°C)=%s\nWind Speed(m/s)=%s\nSunrise=%s\nSunset=%s\nWind Direction=%s°'%(lon,lat,weather_desc,humidity,temp,speed,sunrise,sunset,windir)
+        final_string = 'Name= %s\nLongitude= %s°\nLatitude%s° \nClimate=%s\nHumidity=%s%%\nTemperature(°C)=%s\nWind Speed(m/s)=%s\nSunrise=%s\nSunset=%s\nWind Direction=%s°'%(area,lon,lat,weather_desc,humidity,temp,speed,sunrise,sunset,windir)
     except:
         final_string ='Oops something went wrong, Please try later'
 
