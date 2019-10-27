@@ -25,7 +25,7 @@ def format_response(weather):
         sunrise = time.ctime(weather['sys']['sunrise'])
         sunset = time.ctime(weather['sys']['sunset'])
         windir = weather['wind']['deg']
-        final_string = 'Name= %s\nLongitude= %s°\nLatitude%s° \nClimate=%s\nHumidity=%s%%\nTemperature(°C)=%s\nWind Speed(m/s)=%s\nSunrise=%s\nSunset=%s\nWind Direction=%s°'%(area,lon,lat,weather_desc,humidity,temp,speed,sunrise,sunset,windir)
+        final_string = 'Name=%s\nLongitude=%s°\nLatitude=%s° \nClimate=%s\nHumidity=%s%%\nTemperature(°C)=%s\nWind Speed(m/s)=%s\nSunrise=%s\nSunset=%s\nWind Direction=%s°'%(area,lon,lat,weather_desc,humidity,temp,speed,sunrise,sunset,windir)
     except:
         final_string ='Oops something went wrong, Please try later'
 
